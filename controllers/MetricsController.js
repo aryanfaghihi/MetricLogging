@@ -23,7 +23,15 @@ const setMetric = async (req, res, next) => {
     return res.status(200).json({})
 }
 
-
+/* GET /metric/:key/sum */
+const getMetric = async (req, res, next) => {
+    return res.status(200).json({ 
+        value: 
+        //Send 0 if key is not specified in the storage
+        (global.storage.metrics[req.params.key]) 
+        ? global.storage.metrics[req.params.key] : 0 })
+}
 module.exports = {
     setMetric,
+    getMetric
 }
