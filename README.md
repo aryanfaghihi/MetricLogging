@@ -23,9 +23,9 @@ POST: `/metric/{{key}}`
 
 ### Body
 
-```json
+```js
 {
-   "value":Number
+   "value": Number
 }
 ```
 
@@ -33,7 +33,7 @@ POST: `/metric/{{key}}`
 
 *200 OK*
 
-```json
+```js
 {}
 ```
 
@@ -43,8 +43,8 @@ GET: `/metric/{{key}}/sum`
 
 ### Successful Response
 
-```json
+```js
 {
-	"value":Number
+	"value": Number
 }
 ```
