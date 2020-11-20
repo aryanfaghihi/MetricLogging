@@ -1,0 +1,23 @@
+{
+  "name": "deep-task-1",
+  "version": "0.0.1",
+  "description": "A metric logging and reporting service that sums metrics by time window for the most",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "assignment",
+    "metric",
+    "report",
+    "log"
+  ],
+  "author": "Aryan Faghihi",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2"
+  }
+}
