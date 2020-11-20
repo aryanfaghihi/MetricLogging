@@ -1,5 +1,5 @@
 const express = require('express');
-const { setMetric,getMetric } = require('../controllers/metricsController');
+const { setMetric,getMetric } = require('../controllers/MetricsController');
 const router = express.Router();
 
 router.post("/:key",setMetric)
